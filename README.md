@@ -50,3 +50,6 @@ make build
 |--------------------|------------|
 | Nebil Mohammed     | ETS0958/10 |
 | Omer Abdulaziz     | ETS0988/10 |
+| Olayd Bizuneh      | ETS0988/10 |
+| Samuel Amsalu      | ETS1036/10 |
+| Surafel Hailu      | ETS1112/10 |
