@@ -29,6 +29,26 @@ public class QuoteRepository implements Container {
           }
           return null;
        }
+      @Override
+      public boolean hasPrev() {
+          if(index > 0) {
+                return true;
+           }
+           return false;
+       }
+ 
+       @Override
+       public Object prev() {
+           if(prevcalled == 1) {
+               index--;
+           }
+           prevcalled = 0;
+           if(this.hasPrev()) {
+               return quotes[--index];
+           }
+           return null;
+       }
+
   
      }
 }
