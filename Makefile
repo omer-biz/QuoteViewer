@@ -1,4 +1,8 @@
-build: MainClass.java
+build: MainClass.java \
+        Container.java \
+        QuoteRepository.java \
+        QuoteList.java \
+        Iterator.java \
 	javac MainClass.java
 
 run: build
