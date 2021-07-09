@@ -3,4 +3,5 @@ public interface Iterator {
     public Object next();
     public boolean hasPrev();
     public Object prev();
+    public object middle();
 }
